@@ -38,12 +38,37 @@ body {
     display: flex;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 50px;
+    justify-content: center;
+}
+
+.fiSecLeft {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .heroMainText {
     font-weight: 900;
     font-size: 48px;
     color: #f9faf8;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.heroImage {
+    margin-left: 40px;
+}
+
+.heroButton {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+     font-weight: bold;
+     align-self: flex-end;
 }
 
 
