@@ -134,4 +134,41 @@ body {
 
 }
 
+/* Fourth Section */
+
+.fourthSec {
+    display: flex;
+    justify-content: center;
+}
+
+.fourSecSign {
+    margin: 100px 0;
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    color: #f9faf8;
+    width: 1000px;
+    justify-content: space-around;
+}
+.fourSecHeroText {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.fourSecSubText {
+    margin: 0;
+}
+
+.fourSecSignUpButton {
+    border: solid 2px #f9faf8;
+    border-radius: 7px;
+    align-self: center;
+    color: #f9faf8;
+    background-color: #3882F6;
+    padding: 7px 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
 
