@@ -172,3 +172,19 @@ body {
 }
 
 
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    margin: 0;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footerText {
+    margin: 0;
+}
+
+
