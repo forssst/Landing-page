@@ -57,6 +57,10 @@ body {
     align-self: flex-end;
 }
 
+.firstSecSubText {
+    color: #E5E7EB;
+}
+
 .heroImage {
     margin-left: 40px;
 }
@@ -85,12 +89,15 @@ body {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 50px;
+    margin-top: 50px;
 }
 
 .secSecBoxes {
     flex-direction: row;
     display: flex;
+    margin-bottom: 50px;
+    color: #464646;
+    text-align: center;
 }
 
 .secContainer {
