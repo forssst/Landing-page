@@ -22,14 +22,19 @@ body {
     flex-wrap: nowrap;
     max-width: 100%;
     display: flex;
+    justify-content: center;
+}
+
+.headerCont {
+    width: 1040px;
+    display: flex;
     justify-content: space-between;
 }
-.headerLogo {
-    margin-left: 200px;
-}
+
 .headerLinks {
     align-self: center;
-    margin-right: 200px;
+    display: flex;
+    gap: 15px;
 }
 
 /* Main */
